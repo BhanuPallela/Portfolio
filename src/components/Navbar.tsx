@@ -47,7 +47,7 @@ const Navbar = () => {
               onClick={() => scrollToSection('#hero')}
               className="text-xl font-bold text-gradient hover:scale-105 transition-transform"
             >
-              Simhadri Done
+              Bhanu Pallela
             </button>
 
             {/* Desktop Navigation */}

@@ -5,22 +5,22 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/Simmudone",
+      href: "https://github.com/BhanuPallela",
       label: "GitHub"
     },
     {
       icon: Mail,
-      href: "mailto:simmudone@gmail.com",
+      href: "mailto:bhanupallela17@gmail.com",
       label: "Email"
     },
     {
       icon: ExternalLink,
-      href: "https://www.hackerrank.com/profile/226K1A0508",
+      href: "https://www.hackerrank.com/profile/226K1A0548",
       label: "HackerRank"
     },
     {
       icon: Phone,
-      href: "tel:+919392496375",
+      href: "tel:+91 9703141983",
       label: "Phone"
     }
   ];
@@ -38,10 +38,10 @@ const Footer = () => {
           {/* Brand */}
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold text-gradient mb-2">
-              Simhadri Done
+              Bhanu Pallela
             </h3>
             <p className="text-muted-foreground">
-              Web Developer & Technology Enthusiast
+              Software Developer & Technology Enthusiast
             </p>
           </div>
 
@@ -78,7 +78,7 @@ const Footer = () => {
         <div className="border-t border-border/30 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Simhadri Done. All rights reserved.
+              © {currentYear} Bhanu Pallela. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground">
               Built with React,JavaScript & CSS

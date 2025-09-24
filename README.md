@@ -30,7 +30,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/Simmudone/portfolio.git
+git clone https://github.com/BhanuPallela/portfolio.git
 cd portfolio
 ```
 
@@ -71,7 +71,7 @@ Your portfolio will be available at [http://localhost:8080](http://localhost:808
    Add this line (replace with your username and repo name):
 
    ```json
-   "homepage": "https://Simmudone.github.io/portfolio"
+   "homepage": "https://BhanuPallela.github.io/portfolio"
    ```
 
    And add these scripts:
@@ -102,7 +102,7 @@ Your portfolio will be available at [http://localhost:8080](http://localhost:808
 Your portfolio will be live at:
 
 ```
-https://Simmudone.github.io/portfolio
+https://BhanuPallela.github.io/portfolio
 ```
 
 ---
@@ -111,8 +111,8 @@ https://Simmudone.github.io/portfolio
 
 If you'd like to connect or discuss a project, feel free to reach out:
 
-- 📧 Email: simmudone@gmail.com
-- 💻 GitHub: [Simmudone](https://github.com/Simmudone)
+- 📧 Email: bhanupallela17@gmail.com
+- 💻 GitHub: [BhanuPallela](https://github.com/BhanuPallela)
 
 ---
 

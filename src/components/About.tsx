@@ -42,7 +42,7 @@ const About = () => {
             <div className="relative group">
               <div className="w-64 h-64 rounded-2xl bg-gradient-primary/10 border-2 border-neon-cyan/30 overflow-hidden hover-lift group-hover:border-neon-cyan/50 transition-all duration-300">
                 <img 
-                  src="/lovable-uploads/dde676c1-0d17-4fba-9eb8-6b931d2d2b52.png" 
+                  src="/lovable-uploads/Bhanu Profile.jpg" 
                   alt="Profile" 
                   className="w-full h-full object-cover"
                 />
@@ -72,7 +72,7 @@ const About = () => {
             {/* Key Stats */}
             <div className="grid grid-cols-2 gap-6 mt-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-neon-cyan">8.16</div>
+                <div className="text-3xl font-bold text-neon-cyan">8.22</div>
                 <div className="text-sm text-muted-foreground">CGPA</div>
               </div>
               <div className="text-center">

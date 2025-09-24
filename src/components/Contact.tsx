@@ -18,29 +18,29 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "simmudone@gmail.com",
-      href: "mailto:simmudone@gmail.com",
+      value: "bhanupallela17@gmail.com",
+      href: "mailto:bhanupallela17@gmail.com",
       color: "neon-cyan"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 9392496375",
-      href: "tel:+919392496375",
+      value: "+91 9703141983",
+      href: "tel:+91 9703141983",
       color: "neon-purple"
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "Simmudone",
-      href: "https://github.com/Simmudone",
+      value: "BhanuPallela",
+      href: "https://github.com/BhanuPallela",
       color: "neon-green"
     },
     {
       icon: ExternalLink,
       label: "HackerRank",
-      value: "226K1A0508",
-      href: "https://www.hackerrank.com/profile/226K1A0508",
+      value: "226K1A0548",
+      href: "https://www.hackerrank.com/profile/226K1A0548",
       color: "neon-cyan"
     }
   ];
@@ -58,7 +58,7 @@ const Contact = () => {
     }
 
     try {
-      const response = await fetch("https://formspree.io/f/xvgqpalq", {
+      const response = await fetch("https://formspree.io/f/mdkwobro", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -236,7 +236,7 @@ const Contact = () => {
               <Button
                 size="lg"
                 className="neon-border bg-transparent hover:bg-primary/10 text-primary"
-                onClick={() => window.open('mailto:simmudone@gmail.com', '_blank')}
+                onClick={() => window.open('mailto:bhanupallela17@gmail.com', '_blank')}
               >
                 <Mail className="w-5 h-5 mr-2" />
                 Email Me
@@ -245,7 +245,7 @@ const Contact = () => {
                 variant="outline"
                 size="lg"
                 className="border-neon-purple/30 text-neon-purple hover:bg-neon-purple/10"
-                onClick={() => window.open('https://github.com/Simmudone', '_blank')}
+                onClick={() => window.open('https://github.com/BhanuPallela', '_blank')}
               >
                 <Github className="w-5 h-5 mr-2" />
                 View GitHub

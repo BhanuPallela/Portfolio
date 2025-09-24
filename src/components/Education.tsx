@@ -7,21 +7,21 @@ const Education = () => {
       degree: "B.Tech Computer Science and Engineering",
       institution: "Ideal Institute of Technology, Kakinada",
       period: "2022 - 2026",
-      grade: "CGPA: 8.16",
+      grade: "CGPA: 8.22",
       status: "Current"
     },
     {
       degree: "Intermediate (MPC)",
-      institution: "V V S Reddy Junior College",
+      institution: "Sri Chaitanya Junior College",
       period: "2020 - 2022",
-      grade: "74.3%",
+      grade: "94.8%",
       status: "Completed"
     },
     {
       degree: "Secondary School Certificate (SSC)",
-      institution: "ZP High School Konapapeta",
+      institution: "New Cambridge High School Kakinada",
       period: "2020",
-      grade: "97%",
+      grade: "93%",
       status: "Completed"
     }
   ];
@@ -93,11 +93,11 @@ const Education = () => {
         {/* Achievement Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
           <div className="text-center">
-            <div className="text-4xl font-bold text-neon-cyan mb-2">8.16</div>
+            <div className="text-4xl font-bold text-neon-cyan mb-2">8.22</div>
             <div className="text-muted-foreground">Current CGPA</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-neon-purple mb-2">97%</div>
+            <div className="text-4xl font-bold text-neon-purple mb-2">93%</div>
             <div className="text-muted-foreground">SSC Percentage</div>
           </div>
           <div className="text-center">

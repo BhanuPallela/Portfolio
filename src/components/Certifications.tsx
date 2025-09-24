@@ -5,26 +5,36 @@ import { Calendar, Award, ExternalLink, Building } from 'lucide-react';
 const Certifications = () => {
   const certifications = [
     {
-      title: "IBM SkillsBuild Full Stack Application Development",
-      provider: "IBM",
-      type: "Professional Certificate",
-      date: "2024",
+      title: "Red Hat System Administration I (RH124 - RHA)",
+      provider: "Red Hat",
+      type: "Certification",
+      date: "2025",
       status: "Completed",
-      description: "Comprehensive full-stack development training covering modern web technologies and industry best practices.",
-      skills: ["React", "Node.js", "Database Management", "DevOps"],
+      description: "Comprehensive training on Red Hat Enterprise Linux 9.3 fundamentals, focusing on system administration, command-line operations, and Linux environment management.",
+      skills: ["Linux Administration", "Command-Line Proficiency", "System Configuration", "Open-Source Technologies"],
       color: "neon-cyan",
-      link: "https://drive.google.com/file/d/1ElttIqb5ms5WHo4zANHqrKgqTb2VyRs4/view"
+      link: "https://drive.google.com/file/d/1CPOvAX3wWxcBaViaNyOmTlHUPykcaa2J/view"
+      // title: "IBM SkillsBuild Full Stack Application Development",
+      // provider: "IBM",
+      // type: "Professional Certificate",
+      // date: "2024",
+      // status: "Completed",
+      // description: "Comprehensive full-stack development training covering modern web technologies and industry best practices.",
+      // skills: ["React", "Node.js", "Database Management", "DevOps"],
+      // color: "neon-cyan",
+      // link: "https://drive.google.com/file/d/1ElttIqb5ms5WHo4zANHqrKgqTb2VyRs4/view"
+      
     },
     {
       title: "AI Associate Certification",
       provider: "Salesforce",
       type: "Professional Certification",
-      date: "2024",
+      date: "2025",
       status: "Completed",
       description: "Advanced certification in artificial intelligence applications and Salesforce AI platform integration.",
       skills: ["AI/ML", "Salesforce Platform", "Data Analysis", "Automation"],
       color: "neon-purple",
-      link: "https://drive.google.com/file/d/1ErMYU0DG4FuNeMb0JcX8OSJtheQCP7z6/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1Q6U__C8muRtTAjZk6rMl4zcgW7L5LU25/view"
     },
     {
       title: "Java Programming Fundamentals",
@@ -35,7 +45,7 @@ const Certifications = () => {
       description: "Comprehensive Java programming course covering OOP principles, data structures, and software design patterns.",
       skills: ["Java", "OOP", "Data Structures", "Algorithm Design"],
       color: "neon-green",
-      link: "https://drive.google.com/file/d/1vwbzPkHH3h6gsxzcIVqxf8YNhb31-Fif/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1w_ZkzKxHhVNo69dX56TU9WhoNkZ3qDKd/view"
     },
     {
       title: "Python Basics for Data Science",
@@ -46,27 +56,26 @@ const Certifications = () => {
       description: "Foundation course in Python programming with focus on data science applications and libraries.",
       skills: ["Python", "Data Science", "Pandas", "NumPy"],
       color: "neon-cyan",
-      link: "https://drive.google.com/file/d/1Cu4XXUannga7uOTHjAN0rYOhuawx1Hfw/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1OL1kSeoboPEPQ-7xQHHd40YTFKSius0C/view"
     }
   ];
 
   const internships = [
     {
-      title: "Google AI/ML Internship",
+      title: "Android Developer Virtual Internship",
       company: "Google",
-      period: "Apr - Jun 2024",
+      period: "— 2024",
       type: "Virtual Internship",
-      description: "Intensive program focusing on machine learning fundamentals, TensorFlow, and AI project development.",
+      description: "Completed a certified Android Developer program under Google, focusing on mobile app development, UI/UX, and Android architecture.",
       achievements: [
-        "Completed 5 ML projects with real-world applications",
-        "Gained expertise in TensorFlow and neural networks",
-        "Collaborated on AI ethics and responsible development"
+        "Developed Android applications using Java/Kotlin and Android SDK",
+        "Worked with components like Activities, Fragments, and ViewModels",
       ],
-      certificateLink: "https://drive.google.com/file/d/1ybycWvI2FNbMyxc3YY-j5epU0Kz9WJ2w/view?usp=drive_link"
+      certificateLink: "https://drive.google.com/file/d/1vAK0neDTwJ3p8JNsGRqQmKLyQlWpAptO/view"
     },
     {
       title: "AWS Academy Cloud Virtual Internship",
-      company: "Amazon Web Services",
+      company: "AWS Academy",
       period: "Jan - Mar 2024",
       type: "Virtual Internship",
       description: "Cloud computing internship covering AWS services, architecture design, and deployment strategies.",
@@ -75,21 +84,33 @@ const Certifications = () => {
         "Designed and deployed scalable cloud solutions",
         "Earned AWS Cloud Practitioner knowledge"
       ],
-      certificateLink: "https://drive.google.com/file/d/1HT7oGqJzFbO1gLEHQB7hD-bGxbhTkBYr/view?usp=drive_link"
+      certificateLink: "https://drive.google.com/file/d/1SEqJwi-_yvH9bneNz4UyNx4pWM9YsOyQ/view?usp=drivesdk"
     },
     {
-      title: "Software Development Internship",
-      company: "Turtil",
+      title: "AI-ML Internship",
+      company: "SmartInternz",
       period: "6 Weeks - 2025",
-      type: "Stipend-based Internship",
-      description: "Practical software development experience at an AI & ML focused company, working on intelligent applications and modern development practices.",
+      type: "Internship / Certification",
+      description: "Worked on an AI/ML driven project for automated pollen-grain classification, gaining software development experience integrated with machine learning and data preprocessing.",
       achievements: [
-        "Developed AI-powered web applications using modern frameworks",
-        "Worked on machine learning integration projects",
-        "Collaborated with development team on AI/ML client solutions",
-        "Gained hands-on experience with AI development methodologies",
-        "Received performance-based stipend for contributions"
-      ]
+        "Designed and implemented a convolutional neural network to classify pollen grains with high accuracy",
+        "Preprocessed pollen image datasets, handled augmentation, normalization, and splitting",
+        "Integrated the trained ML model into a web application (Flask / similar framework) for real-time inference",
+      ],
+      certificateLink: "https://drive.google.com/file/d/1VG9lalZHesffsOxYSPYuDME3joIFgB71/view"
+    },
+    {
+      title: "Employability Skills Internship",
+      company: "Edunet",
+      period: "6 Weeks - 2024",
+      type: "Internship / Certification",
+      description: "Successfully completed 6 - Week Internship in Employability Skills Domain leveraging IBM SkillsBuild platform.",
+      achievements: [
+        "Improved communication for team interactions.",
+        "Strengthened problem-solving skills.",
+        "Enhanced group collaboration abilities.",
+      ],
+      certificateLink: "https://drive.google.com/file/d/1jFM-rp8MKHXKywGtyuAlE5kk8KvT3yf6/view"
     }
   ];
 

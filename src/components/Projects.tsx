@@ -5,17 +5,17 @@ import { ExternalLink, Github, Zap, Plane } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Spam Detection Using AI",
-      description: "A machine learning-based spam classification system that improves communication efficiency using advanced NLP techniques and data preprocessing.",
-      technologies: ["Python", "Machine Learning", "NLP", "Scikit-learn", "TensorFlow"],
+      title: "Pollen's Profiling: Automated Classification of Pollen Grains",
+      description: "This project focuses on automating the identification and classification of pollen grains from microscopic images. Leveraging deep learning techniques, the system aims to assist in environmental monitoring, allergy prediction, and ecological studies.",
+      technologies: ["Python", "Keras", "Flask", "Numpy","Matplotlib","Pandas","TensorFlow"],
       features: [
-        "Advanced text preprocessing and feature extraction",
-        "Multiple ML algorithms comparison (SVM, Naive Bayes, Random Forest)",
-        "Real-time spam detection with high accuracy",
-        "User-friendly interface for testing"
+        "Image Analysis: Processes microscopic pollen grain images",
+        "Deep Learning: Uses CNNs for accurate pollen classification.",
+        "Web Interface: Lets users upload images and view results.",
+        "Model Training: Includes training, evaluation, and visualization scripts."
       ],
-      github: "https://github.com/Simmudone/Spam-Detection-Using-AI",
-      demo: "https://drive.google.com/file/d/1PU8J2Dx5EhWlwJsBi1iYsNiOWeN-pl4c/view?usp=sharing",
+      github: "https://github.com/BhanuPallela/pollen-s-profiling-automated-classification-of-pollen-grains",
+      demo: "https://github.com/BhanuPallela/pollen-s-profiling-automated-classification-of-pollen-grains/tree/main/Video%20Demo",
       icon: Zap,
       gradient: "from-neon-cyan to-neon-purple"
     },
@@ -29,7 +29,7 @@ const Projects = () => {
         "Payment gateway integration",
         "Responsive design for all devices"
       ],
-      github: "https://github.com/Simmudone/Flight-Finder",
+      github: "https://github.com/BhanuPallela/Flight-Finder",
       demo: "https://drive.google.com/file/d/1APdEIQZwsXKrWIWaozh0msCfRB_9IbKP/view?usp=sharing",
       icon: Plane,
       gradient: "from-neon-purple to-neon-green"
@@ -135,7 +135,7 @@ const Projects = () => {
             <Button
               size="lg"
               className="neon-border bg-transparent hover:bg-primary/10 text-primary"
-              onClick={() => window.open('https://github.com/Simmudone', '_blank')}
+              onClick={() => window.open('https://github.com/BhanuPallela', '_blank')}
             >
               <Github className="w-5 h-5 mr-2" />
               View All on GitHub

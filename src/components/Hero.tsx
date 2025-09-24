@@ -6,7 +6,7 @@ import heroBackground from '@/assets/hero-bg.jpg';
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
-  const fullText = "Web Developer";
+  const fullText = "Software Developer";
 
   useEffect(() => {
     if (currentIndex < fullText.length) {
@@ -59,7 +59,7 @@ const Hero = () => {
           {/* Name */}
           <h1 className="text-6xl md:text-8xl font-bold tracking-tight">
             <span className="text-gradient animate-float">
-              Simhadri Done
+              Bhanu Pallela
             </span>
           </h1>
 
